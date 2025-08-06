@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="genericUtilities.ListnerImplementation"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="inventoryTest.InventoryTest">
+        <methods>
+          <include name="afteerClass"/>
+          <include name="TC_003_ClickOnPriceLowToHighTest"/>
+          <include name="afterSuite"/>
+          <include name="TC_002_AddToCartTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- inventoryTest.InventoryTest -->
+      <class name="cartTest.ClickOnCartIconTest">
+        <methods>
+          <include name="afteerClass"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="TC_001_ClickOnCartIconTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- cartTest.ClickOnCartIconTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
