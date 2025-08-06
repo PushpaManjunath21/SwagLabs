@@ -146,6 +146,7 @@ public class AddToCart {
 //	Thread.sleep(Duration.ofSeconds(2000));
 	driver.findElement(By.linkText("Logout")).click();
 //	Thread.sleep(Duration.ofSeconds(2000));
+	System.out.println("hi");
 
 
     }
