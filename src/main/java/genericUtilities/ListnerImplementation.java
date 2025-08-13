@@ -129,7 +129,7 @@ public class ListnerImplementation implements ITestListener,ISuiteListener {
     public void onTestSkipped(ITestResult result) {
 	//a.add TestCaseName for clarity that which TestCase is success
 	String testcasename = result.getMethod().getMethodName();//take a variable in method & use that to get TestCaseName
-	test.log(Status.SKIP, testcasename+"skipped");// after Extent Test no "Syso", only log
+	test.log(Status.SKIP, testcasename+"skipped");// after Extent Test, no "Syso", only log.
 	//System.out.println(testcasename+"skipped");// before Extent Test
     }
 

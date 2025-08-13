@@ -63,6 +63,8 @@ public class InventoryTest extends BaseClass{
 	
 	// "Both Are Not Equal" will execute when the condition in false
 	
+	System.out.println("i am Poll SCM in --> TC_003_ClickOnPriceLowToHighTest of InventoryTest");
+	
     }
     
     @Test(groups = {"Smoke","Regression"}) 

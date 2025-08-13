@@ -257,7 +257,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File destination = new File(".\\Screenshots\\"+screenshotname+".png");
 		FileHandler.copy(src, destination); // import it from "selenium.io"
-
 		return destination.getAbsolutePath(); // for external reports- its 3rd part tool , since its only aware of absolute path(complete path) , we using this method 
 	}
 }
